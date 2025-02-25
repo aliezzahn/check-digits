@@ -2,6 +2,10 @@
 
 A Rust library and binary to determine if a string of digits can be considered equal after certain operations, based on binomial coefficient properties modulo 2 and 5.
 
+![CI](https://github.com/aliezzahn/check-digits/actions/workflows/ci.yml/badge.svg)
+![CD](https://github.com/aliezzahn/check-digits/actions/workflows/cd.yml/badge.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Overview
 
 This project implements a solution to the "Check if Digits are Equal in String After Operations II" problem. It computes the sum of differences between consecutive digits, weighted by binomial coefficients \(\binom{n-2}{i}\), and checks if the result is zero modulo both 2 and 5. The implementation is optimized for runtime performance with:
