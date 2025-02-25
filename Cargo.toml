@@ -1,0 +1,18 @@
+[package]
+name = "check-digits"
+version = "0.1.0"
+edition = "2021"
+description = "A Rust library to check if digits can be equal after operations using binomial coefficients."
+authors = ["aliezzahn <aliezzahn@gmail.com>"]
+license = "MIT"
+repository = "https://github.com/aliezzahn/check-digits"
+
+[lib]
+name = "check_digits"
+path = "src/lib.rs"
+
+[dependencies]
+# No external dependencies needed
+
+[dev-dependencies]
+# For testing, if desired
